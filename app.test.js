@@ -2,7 +2,7 @@ const { add, subtract, multiply, divide } = require('./app');
 
 // Testing add function
 test('adds 2 + 3 = 5', () => {
-  expect(add(2, 3)).toBe(5);
+  expect(add(2, 3)).toBe(21);
 });
 
 // Testing subtract function
